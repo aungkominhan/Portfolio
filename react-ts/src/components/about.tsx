@@ -17,20 +17,30 @@ const About = () => {
       >
         <Box>
           <h1 style={{ textAlign: "center" }}>
-            <span>
-              Hey!<span></span>
-            </span>{" "}
+            Hey!<span></span>
             👋
           </h1>
         </Box>
       </Slide>
 
       <Stack direction="row" spacing={2} sx={{ ml: 20, mt: 5, mr: 10 }}>
-        <Avatar
-          alt="Remy Sharp"
-          src="/static/images/avatar/1.jpg"
-          sx={{ width: 150, height: 150 }}
-        />{" "}
+        <Slide
+          direction="right"
+          in={true}
+          mountOnEnter
+          unmountOnExit
+          timeout={1000}
+        >
+          <div>
+            {" "}
+            <Avatar
+              alt="Remy Sharp"
+              src="/static/images/avatar/1.jpg"
+              sx={{ width: 150, height: 150 }}
+            />{" "}
+          </div>
+        </Slide>
+
         <Typography variant="h4" gutterBottom>
           My name is <b>AUNG KO MIN HAN</b>. I'm 26 years old. I'm a full stack
           Developer. My developer junory was started from 2022
