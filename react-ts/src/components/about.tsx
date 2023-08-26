@@ -1,9 +1,8 @@
-import * as React from "react";
 import Avatar from "@mui/material/Avatar";
 import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
-import Slide from "@mui/material/Slide/Slide";
 import Box from "@mui/material/Box";
+import Slide from "@mui/material/Slide/Slide";
 
 const About = () => {
   return (
